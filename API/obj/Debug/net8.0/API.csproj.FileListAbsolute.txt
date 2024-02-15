@@ -111,3 +111,4 @@ C:\Users\ugoda\Desktop\PauseKFET\Project\API\bin\Debug\net8.0\Microsoft.AspNetCo
 C:\Users\ugoda\Desktop\PauseKFET\Project\API\bin\Debug\net8.0\Scrutor.dll
 C:\Users\ugoda\Desktop\PauseKFET\Project\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\ugoda\Desktop\PauseKFET\Project\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\ugoda\Desktop\PauseKFET\Project\API\obj\Debug\net8.0\API.sourcelink.json

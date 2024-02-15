@@ -8,6 +8,6 @@
         public decimal TotalPrice { get; set; } 
         
         public int IdOrder { get; set; } 
-        public Order Order { get; set; }
+        public Order? Order { get; set; }
     }
 }
