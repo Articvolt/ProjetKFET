@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\API\\..\\Web",
+"WorkingDirectory": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\..\\Web",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

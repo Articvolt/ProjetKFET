@@ -4,6 +4,8 @@ import { Header } from '../Header/Header.tsx';
 import { Footer } from '../Footer/Footer.tsx';
 import { GeneralTerms } from '../../pages/Footer/GeneralTerms.page';
 import { LegalNotice } from '../../pages/Footer/LegalNotice.page';
+import { ItemsPage } from '../../pages/Admin/ItemList.page';
+
 
 export const Template = () => {
     return (
@@ -14,6 +16,7 @@ export const Template = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/general-terms" element={<GeneralTerms />} />
                     <Route path="/legal-notice" element={<LegalNotice />} />
+                    <Route path="/items" element={<ItemsPage />} />
                 </Routes>
             </div>
             <Footer />

@@ -11,3 +11,16 @@ C:\Users\ugoda\Desktop\PauseKFET\Project\Model\obj\Debug\net8.0\refint\Model.dll
 C:\Users\ugoda\Desktop\PauseKFET\Project\Model\obj\Debug\net8.0\Model.pdb
 C:\Users\ugoda\Desktop\PauseKFET\Project\Model\obj\Debug\net8.0\ref\Model.dll
 C:\Users\ugoda\Desktop\PauseKFET\Project\Model\obj\Debug\net8.0\Model.sourcelink.json
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\bin\Debug\net8.0\Model.deps.json
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\bin\Debug\net8.0\Model.dll
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\bin\Debug\net8.0\Model.pdb
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.AssemblyInfo.cs
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.sourcelink.json
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.dll
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\refint\Model.dll
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.pdb
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\ref\Model.dll

@@ -1,52 +1,101 @@
 ﻿export const GeneralTerms = () => {
     return (
         <>
-            <h2>1. Préambule</h2>
+            <h1>CONDITIONS GENERALES D'UTILISATION</h1>
 
-            <h3>1.1. DÉFINITIONS</h3>
+            <div>
+                <h2>1. Introduction</h2>
+                <p>
+                    Ces conditions générales de vente (ci-après, les "CGV") s'appliquent à toutes les services proposés
+                    par
+                    l'API de cantine professionnelle (ci-après, "l'API") accessible via notre site web ou notre
+                    application
+                    mobile. L'utilisation de l'API implique l'acceptation sans réserve des présentes CGV par
+                    l'utilisateur.
+                </p>
+            </div>
+            
+            <div>
+                <h2>2. Services</h2>
+                <p>L'API offre les services suivants :</p>
+                <ul>
+                    <li>Consultation des menus en mode invité sans nécessité de créer un compte.</li>
+                    <li>Possibilité de créer un compte utilisateur pour réserver des plats.</li>
+                    <li>Paiement des réservations via Stripe.</li>
+                    <li>
+                        Espace administrateur pour la gestion des utilisateurs et des menus par le personnel de la
+                        cantine.
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h2>3. Création de Compte</h2>
+                <p>
+                    La création d'un compte est nécessaire pour réserver un plat. L'utilisateur doit fournir des
+                    informations véridiques et complètes lors de la création de son compte. L'utilisateur est
+                    responsable de
+                    la confidentialité de son mot de passe.
+                </p>
+            </div>
 
-            <p>
-                La société Refectory (ci-après « Refectory ») propose principalement la vente de produits via son site
-                Internet
-                www.refectory.fr et ses applications mobiles disponibles sur Google Play et Apple Store (ci-après
-                l’ensemble est
-                dénommé le « Site »).
-                Refectory a notamment pour activité la vente de plats cuisinés et d’articles d’épiceries auprès de ses
-                clients.
-                Les présentes conditions générales de Refectory (ci-après les « Conditions Générales ») ont pour objet
-                de
-                définir les droits et obligations des parties dans le cadre de la vente de produits sur le Site. Elles
-                s’appliquent, sans restriction ni réserve, à l’ensemble des ventes des produits et services proposés par
-                Refectory sur son Site.
-                Les présentes Conditions Générales priment sur tout autre document sauf accord écrit et précisé par
-                Refectory.
-                Toute commande passée sur le Site suppose l’acceptation des présentes Conditions Générales, dont le
-                client
-                reconnaît avoir pris connaissance, les avoir comprises et acceptées en parfaite connaissance de cause.
-                Les présentes Conditions Générales sont disponibles uniquement en langue française, cette version étant
-                la seule
-                valable. Le client dispose de la faculté de les sauvegarder et de les imprimer. Les présentes Conditions
-                Générales sont soumises à la loi française et aux normes françaises en vigueur.
-                Refectory se réserve le droit de modifier les présentes Conditions Générales à tout moment, sans
-                préavis, étant
-                entendu que de telles modifications seront inapplicables aux réservations et aux commandes préalablement
-                acceptées et confirmées par le client.
-                Le client est invité à prendre connaissance des Conditions Générales en ligne au moment de sa Commande.
+            <div>
+                <h2>4. Réservation et Paiement</h2>
+                <p>
+                    Les réservations de plats sont effectuées via l'API. Le paiement est sécurisé et géré par Stripe.
+                    Les
+                    détails de paiement ne sont pas stockés sur nos serveurs.
+                </p>
+            </div>
+            
+            <div>
+                <h2>5. Annulation et Remboursement</h2>
+                <p>
+                    Les conditions d'annulation et de remboursement seront définies en fonction de la politique de la
+                    cantine. En général, une annulation est possible jusqu'à une certaine heure avant le service du
+                    repas,
+                    avec ou sans frais selon les cas.
+                </p>
+            </div>
 
-            </p>
+            <div>
+                <h2>6. Protection des Données Personnelles</h2>
+                <p>
+                    L'API s'engage à protéger la confidentialité des données personnelles des utilisateurs conformément
+                    à la
+                    législation en vigueur.
+                </p>
+            </div>
 
-            <h3>1.2. COORDONNÉES DE LA SOCIÉTÉ</h3>
+            <div>
+                <h2>7. Modification des Services ou des CGV</h2>
+                <p>
+                    L'API se réserve le droit de modifier à tout moment les services proposés ou les termes des
+                    présentes
+                    CGV.
+                </p>
+            </div>
+            
+            <div>
+                <h2>8. Responsabilité</h2>
 
-            <p>
-                Le Site www.refectory.fr est édité par la société par action simplifiée Dejbox Services au capital
-                social de
-                12.439 euros dont le siège social est au 72, chemin de la Campagnerie - 59700 Marcq-en-Baroeul, inscrite
-                au
-                registre du Commerce et des Sociétés de Lille sous le numéro 810 785 055.
-                Le numéro de TVA intracommunautaire est FR55810785055. Pour contacter Refectory ou le site
-                www.refectory.fr,
-                vous pouvez adresser un courriel à l’adresse suivante: hello@refectory.fr
-            </p>
+                <p>
+                    L'API ne peut être tenue responsable des éventuelles interruptions de service dues à des
+                    maintenances ou des problèmes techniques. La responsabilité de l'API ne peut être engagée en cas de
+                    non-respect des CGV par les utilisateurs.
+                </p>
+            </div>
+            
+            <div>
+                <h2>9. Loi Applicable et Juridiction</h2>
+                <p>
+                    Les présentes CGV sont régies par la loi [du pays de l'entité gestionnaire de l'API]. Tout litige
+                    relatif à leur interprétation et/ou leur exécution relève des tribunaux compétents [du pays ou de la
+                    région de l'entité gestionnaire].
+                </p>
+            </div>
+
+
         </>
 
     );

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\API\\API.csproj": {}
+    "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\API\\API.csproj": {
+    "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\ugoda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\API\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ugoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\Model\\Model.csproj"
+              "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj"
               }
             }
           }
@@ -96,17 +96,17 @@
         }
       }
     },
-    "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\Model\\Model.csproj": {
+    "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\ugoda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\Project\\Model\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ugoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
