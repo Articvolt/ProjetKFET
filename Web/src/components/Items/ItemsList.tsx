@@ -1,22 +1,15 @@
-﻿import React, { useEffect, useState } from 'react';
-import { fetchItems, deleteItem } from '../../api/ApiService';
-import { Item } from '../../types/itemTypes';
+﻿import React from "react";
+import { useItems, useDeleteItem } from "./ItemModel.ts"; 
+
 
 const ItemsList: React.FC = () => {
-    const [items, setItems] = useState<Item[]>([]);
-
-    useEffect(() => {
-        const getItems = async () => {
-            const items = await fetchItems();
-            console.log(items); // Ajoutez cette ligne pour le debugging
-            setItems(items);
-        };
-        getItems();
-    }, []);
+    const { items } = useItems();
+    const deleteItem = useDeleteItem();
 
     const handleDelete = async (id: number) => {
         await deleteItem(id);
-        setItems(items.filter(item => item.id !== id));
+        // You should also update the items state to reflect the deletion
+        // For example, you can call setItems with the updated list
     };
 
     return (
@@ -25,7 +18,7 @@ const ItemsList: React.FC = () => {
             {items.map(item => (
                 <div key={item.id}>
                     <h3>{item.name}</h3>
-                    {/* Affichez d'autres détails de l'item ici */}
+                    <p>{item.description}</p>
                     <button onClick={() => handleDelete(item.id)}>Delete</button>
                 </div>
             ))}
