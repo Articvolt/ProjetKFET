@@ -2,11 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Model;
 using Model.Entity;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace API.Controllers
+namespace Project.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Model;
 using Model.Entity;
 
-namespace API.Controllers
+namespace Project.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -20,7 +20,7 @@ namespace API.Controllers
         public async Task<ActionResult<Cart>> GetCart(int id)
         {
             var cart = await _context.Carts
-                .Include(c => c.Adds) 
+                .Include(c => c.Adds)! 
                 .ThenInclude(a => a.Item) 
                 .FirstOrDefaultAsync(c => c.Id == id);
 
