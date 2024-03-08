@@ -9,9 +9,6 @@
         public int Quantity { get; set; }
         public bool Disponibility { get; set; }
         
-        public int IdUser { get; set; }
-        public User? User { get; set; }
-        
         public int IdCategory { get; set; }
         public Category? Category { get; set; }
         

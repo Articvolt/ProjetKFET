@@ -329,9 +329,6 @@ namespace Model.Migrations
                     b.Property<int>("IdCategory")
                         .HasColumnType("int");
 
-                    b.Property<int>("IdUser")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -342,14 +339,9 @@ namespace Model.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Items");
                 });
@@ -479,13 +471,7 @@ namespace Model.Migrations
                         .WithMany("Items")
                         .HasForeignKey("CategoryId");
 
-                    b.HasOne("Model.Entity.User", "User")
-                        .WithMany("Items")
-                        .HasForeignKey("UserId");
-
                     b.Navigation("Category");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Model.Entity.Order", b =>
@@ -520,8 +506,6 @@ namespace Model.Migrations
 
             modelBuilder.Entity("Model.Entity.User", b =>
                 {
-                    b.Navigation("Items");
-
                     b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618

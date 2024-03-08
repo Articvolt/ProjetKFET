@@ -21,10 +21,22 @@ export const Header = () => {
                                         <Link className="mx-6" to="/items">PANNEAU D'ADMINISTRATION</Link>
                                     </li>
                                     <li>
-                                        <Link className="mx-6" to="/">MENU DE LA SEMAINE</Link>
+                                        <Link className="mx-6" to="/menu-of-the-week">MENU DE LA SEMAINE</Link>
                                     </li>
                                     <li>
-                                        <Link className="mx-6" to="/">MA COMMANDE</Link>
+                                        <Link className="mx-6" to="/checkout">MA COMMANDE</Link>
+                                    </li>
+                                    <li>
+                                        <Link className="mx-6" to="/register">INSCRIPTION</Link>
+                                    </li>
+                                    <li>
+                                        <Link className="mx-6" to="/login">CONNEXION</Link>
+                                    </li>
+                                    <li>
+                                        <Link className="mx-6" to="/profile">MON PROFIL</Link>
+                                    </li>
+                                    <li>
+                                        <Link className="mx-6" to="/">DECONNEXION</Link>
                                     </li>
                                 </ul>
                             </div>

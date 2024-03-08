@@ -5,22 +5,34 @@ import { Footer } from '../Footer/Footer.tsx';
 import { GeneralTerms } from '../../pages/Footer/GeneralTerms.page';
 import { LegalNotice } from '../../pages/Footer/LegalNotice.page';
 import { ItemsPage } from '../../pages/Admin/ItemList.page';
+import {MenuWeek} from "../../pages/Home/MenuWeek.page.tsx";
+import {Login} from "../../pages/Auth/Login.page.tsx";
+import {Register} from "../../pages/Auth/Register.page.tsx";
+import {Profile} from "../../pages/Profile/ProfileSetting.page.tsx";
+import {Checkout} from "../../pages/Checkout/Checkout.page.tsx";
+import {Success} from "../../pages/Checkout/Success.page.tsx";
 
 
 export const Template = () => {
     return (
-        <div className="flex flex-col h-screen">
-            <Header />
-            <div className="flex-grow w-3/4 mx-auto my-10">
+        <div className="flex flex-col h-screen relative">
+            <Header/>
+            <div className="flex-grow w-full mx-auto py-10 relative background-image">
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/general-terms" element={<GeneralTerms />} />
-                    <Route path="/legal-notice" element={<LegalNotice />} />
-                    <Route path="/items" element={<ItemsPage />} />
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/menu-of-the-week" element={<MenuWeek/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/register" element={<Register/>}/>
+                    <Route path="/general-terms" element={<GeneralTerms/>}/>
+                    <Route path="/legal-notice" element={<LegalNotice/>}/>
+                    <Route path="/items" element={<ItemsPage/>}/>
+                    <Route path="/profile" element={<Profile/>}/>
+                    <Route path="/checkout" element={<Checkout/>}/>
+                    <Route path="/success" element={<Success/>}/>
                 </Routes>
             </div>
-            <Footer />
-            
+            <Footer/>
+
         </div>
     );
 };

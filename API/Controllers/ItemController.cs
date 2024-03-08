@@ -28,7 +28,6 @@ namespace Project.Server.Controllers
         public async Task<ActionResult<Item>> GetItem(int id)
         {
             var item = await _context.Items
-                .Include(i => i.User) 
                 .Include(i => i.Category) 
                 .FirstOrDefaultAsync(i => i.Id == id);
 

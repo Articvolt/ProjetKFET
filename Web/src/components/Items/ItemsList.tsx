@@ -13,15 +13,31 @@ const ItemsList: React.FC = () => {
     };
 
     return (
-        <div>
-            <h2>Items List</h2>
-            {items.map(item => (
-                <div key={item.id}>
-                    <h3>{item.name}</h3>
-                    <p>{item.description}</p>
-                    <button onClick={() => handleDelete(item.id)}>Delete</button>
+        <div className="container mx-auto px-4">
+            <h2 className="text-2xl font-bold mb-4">Liste des produits</h2>
+            {items.length === 0 ? (
+                <p className="text-center text-gray-600">Aucun produits en base de données</p>
+            ) : (
+                <div className="flex flex-col">
+                    {items.map(item => (
+                        <div key={item.id}
+                             className="flex justify-between items-center mb-4 border-b border-gray-200 pb-2">
+                            <div>
+                                <h3 className="text-xl font-semibold">{item.name}</h3>
+                                <p className="text-gray-600">{item.description}</p>
+                            </div>
+                            <div className="flex space-x-2">
+                                <button
+                                    onClick={() => handleDelete(item.id)}
+                                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                                >
+                                    Supprimer
+                                </button>
+                            </div>
+                        </div>
+                    ))}
                 </div>
-            ))}
+            )}
         </div>
     );
 };
