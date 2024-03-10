@@ -18,18 +18,20 @@ export const Template = () => {
         <div className="flex flex-col h-screen relative">
             <Header/>
             <div className="flex-grow w-full mx-auto py-10 relative background-image">
-                <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/menu-of-the-week" element={<MenuWeek/>}/>
-                    <Route path="/login" element={<Login/>}/>
-                    <Route path="/register" element={<Register/>}/>
-                    <Route path="/general-terms" element={<GeneralTerms/>}/>
-                    <Route path="/legal-notice" element={<LegalNotice/>}/>
-                    <Route path="/items" element={<ItemsPage/>}/>
-                    <Route path="/profile" element={<Profile/>}/>
-                    <Route path="/checkout" element={<Checkout/>}/>
-                    <Route path="/success" element={<Success/>}/>
-                </Routes>
+                <div className="w-3/4 bg-white m-auto p-8 rounded">
+                    <Routes>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/menu-of-the-week" element={<MenuWeek/>}/>
+                        <Route path="/login" element={<Login/>}/>
+                        <Route path="/register" element={<Register/>}/>
+                        <Route path="/general-terms" element={<GeneralTerms/>}/>
+                        <Route path="/legal-notice" element={<LegalNotice/>}/>
+                        <Route path="/items" element={<ItemsPage/>}/>
+                        <Route path="/profile" element={<Profile/>}/>
+                        <Route path="/checkout" element={<Checkout/>}/>
+                        <Route path="/success" element={<Success/>}/>
+                    </Routes>
+                </div>
             </div>
             <Footer/>
 

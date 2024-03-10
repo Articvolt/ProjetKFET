@@ -9,7 +9,7 @@ html {
 h1 {
     text-align: center;
     font-size: 32px;
-    margin: 20px auto;
+    margin: 10px auto;
     font-weight: bold;
 }
 
@@ -33,4 +33,13 @@ h2 {
     background-attachment: fixed; 
     filter: contrast(125%);
     z-index: -1;
+}
+
+@layer components {
+    .link-button {
+        @apply text-link-blue hover:text-link-hover-blue;
+    }
+    .form-button {
+        @apply px-4 py-2 bg-primary-brown text-white rounded-lg hover:bg-primary-green;
+    }   
 }

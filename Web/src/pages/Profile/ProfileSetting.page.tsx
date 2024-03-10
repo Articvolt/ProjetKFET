@@ -8,7 +8,7 @@
                             <img src="" alt="profile image" />
                         </div>
                     </div>
-                    <a href="#" className="text-indigo-500 hover:text-indigo-600 text-sm mt-4">modifier l'avatar</a>
+                    <a href="#" className="text-white bg-primary-green">modifier l'avatar</a>
                 </div>
 
                 <form>
@@ -48,7 +48,7 @@
                             placeholder="Adresse mail"
                         />
                     </div>
-                    
+
                     <div className="mb-4">
                         <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="email">
                             Mot de passe
@@ -58,10 +58,12 @@
                             id="password"
                             type="password"
                         />
+                        <a className="link-button cursor-pointer text-xs">supprimer mon compte</a>
                     </div>
-                    <a>mot de passe oublié ?</a>
-                    
-                    <button>Enregistrer les modifications</button>
+                    <div className="text-center">
+                        <button className="form-button">Enregistrer les modifications</button>
+                    </div>
+
                 </form>
             </div>
         </>

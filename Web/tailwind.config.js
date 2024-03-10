@@ -2,7 +2,7 @@
 module.exports = {
   content: [
       "./index.html",
-    "./src/**/*.{jsx,tsx,ts,js,css}",
+      "./src/**/*.{jsx,tsx,ts,js,css}",
   ],
   theme: {
     extend: {
@@ -24,7 +24,9 @@ module.exports = {
       colors: {
         'primary-green': '#216869',
         'primary-brown': '#8D756F',
-        'primary-grey': '#31302D'
+        'primary-grey': '#31302D',
+        'link-blue': '#0400CB',
+        'link-hover-blue': '#3737ff'
       }
     },
   },

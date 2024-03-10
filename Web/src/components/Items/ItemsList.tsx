@@ -16,7 +16,7 @@ const ItemsList: React.FC = () => {
         <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-4">Liste des produits</h2>
             {items.length === 0 ? (
-                <p className="text-center text-gray-600">Aucun produits en base de données</p>
+                <p className="text-center text-gray-600 italic">Aucun produits en base de données</p>
             ) : (
                 <div className="flex flex-col">
                     {items.map(item => (
