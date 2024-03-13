@@ -9,6 +9,7 @@ import {MenuWeek} from "../../pages/Home/MenuWeek.page.tsx";
 import {Login} from "../../pages/Auth/Login.page.tsx";
 import {Register} from "../../pages/Auth/Register.page.tsx";
 import {Profile} from "../../pages/Profile/ProfileSetting.page.tsx";
+import {Invoice} from "../../pages/Profile/Invoice.page.tsx";
 import {Checkout} from "../../pages/Checkout/Checkout.page.tsx";
 import {Success} from "../../pages/Checkout/Success.page.tsx";
 
@@ -28,6 +29,7 @@ export const Template = () => {
                         <Route path="/legal-notice" element={<LegalNotice/>}/>
                         <Route path="/items" element={<ItemsPage/>}/>
                         <Route path="/profile" element={<Profile/>}/>
+                        <Route path="/invoices" element={<Invoice/>}/>
                         <Route path="/checkout" element={<Checkout/>}/>
                         <Route path="/success" element={<Success/>}/>
                     </Routes>

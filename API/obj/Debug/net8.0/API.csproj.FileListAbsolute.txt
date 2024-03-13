@@ -226,7 +226,6 @@ C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\API.pdb
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\ref\API.dll
-C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\bin\Debug\net8.0\appsettings.json
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\bin\Debug\net8.0\spa.proxy.json
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\bin\Debug\net8.0\API.exe

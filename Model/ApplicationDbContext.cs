@@ -8,8 +8,7 @@ namespace Model
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
-        {
-        }
+        { }
         public DbSet<Item> Items { get; set; } = default!;
         public DbSet<Category> Categories { get; set; } = default!;
         public DbSet<Add> Adds { get; set; } = default!;
