@@ -61,7 +61,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.2": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.3": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -1189,10 +1189,10 @@
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.2": {
-      "sha512": "AJO5WO1A7WsyxxjVbcHlvAu3dCJOchP7zgjmcLTJum3wqIgCxVWUL+X+bB24eat91jtPXAJRdH1imwZg/1BeQw==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.3": {
+      "sha512": "LjkiTNvLBJ/zkL/eM3M/luM1SewLJ6LJ/9vgkVHK9Vlh7+6Xzz4NVRO/FfZ237BegFKEdO5zmc+py0QC5H86EA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.2",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1200,7 +1200,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.3.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -3029,19 +3029,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ugoda\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\ugoda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\ProjetKFET\\API\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ugoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3055,8 +3055,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ugoda\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj"
+            "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Model\\Model.csproj"
             }
           }
         }
@@ -3119,7 +3119,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

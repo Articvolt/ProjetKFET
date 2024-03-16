@@ -1,4 +1,6 @@
-﻿export interface Item {
+﻿import {Category} from "./categoryTypes.ts";
+
+export interface Item {
     id: number;
     name: string;
     description: string;
@@ -6,5 +8,6 @@
     quantity: number;
     disponibility: boolean;
     idUser?: number; 
-    idCategory?: number; 
+    idCategory?: number;
+    category?: Category;
 }

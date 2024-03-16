@@ -13,7 +13,9 @@
                         <div
                             className="w-24 h-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mb-4 overflow-hidden flex items-center justify-center text-sm">
                             <img src="" alt="profile image" onError={(e) => {
+                                // @ts-ignore
                                 e.target.onerror = null;
+                                // @ts-ignore
                                 e.target.src = "https://placehold.it/100";
                             }}/>
                         </div>

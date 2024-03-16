@@ -112,7 +112,6 @@ C:\Users\ugoda\Desktop\PauseKFET\Project\API\bin\Debug\net8.0\Scrutor.dll
 C:\Users\ugoda\Desktop\PauseKFET\Project\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\ugoda\Desktop\PauseKFET\Project\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\ugoda\Desktop\PauseKFET\Project\API\obj\Debug\net8.0\API.sourcelink.json
-C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\bin\Debug\net8.0\appsettings.json
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\bin\Debug\net8.0\spa.proxy.json
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\bin\Debug\net8.0\API.exe
@@ -220,7 +219,6 @@ C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\staticwebassets\
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
-C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\API.csproj.CopyComplete
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\API.dll
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\API.pdb
@@ -339,3 +337,4 @@ C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\obj\Debug\net8.0\refint\API.dll
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\obj\Debug\net8.0\API.pdb
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Api\obj\Debug\net8.0\ref\API.dll
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\API\obj\Debug\net8.0\API.csproj.Up2Date

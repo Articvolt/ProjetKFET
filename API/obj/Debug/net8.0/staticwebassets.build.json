@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "dSjZrwUXQOLIAkuPgQHnY/DSdeVFF/U9eWZsOZGtP1I=",
+  "Hash": "B2pihAXVMtGMbZ1zFdWTd5iLqV5EpXbYMV1Jz5QzuTY=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\ugoda\\Desktop\\PauseKFET\\ProjetKFET\\Web\\Web.esproj",
+      "Identity": "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\Web\\Web.esproj",
       "Version": 2,
       "Source": "Web",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

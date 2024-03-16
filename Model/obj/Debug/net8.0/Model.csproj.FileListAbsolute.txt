@@ -39,3 +39,5 @@ C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.pdb
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\ref\Model.dll
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Model\bin\Debug\net8.0\Model.runtimeconfig.json
 C:\Users\ugoda\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.genruntimeconfig.cache
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\bin\Debug\net8.0\Model.runtimeconfig.json
+C:\Users\User\Desktop\PauseKFET\ProjetKFET\Model\obj\Debug\net8.0\Model.genruntimeconfig.cache
