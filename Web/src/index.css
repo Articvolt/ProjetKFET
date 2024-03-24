@@ -41,5 +41,14 @@ h2 {
     }
     .form-button {
         @apply px-4 py-2 bg-primary-brown text-white rounded-lg hover:bg-primary-green;
-    }   
+    }
+    .table-header {
+        @apply px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider;
+    }
+    .table-data {
+        @apply px-6 py-4 whitespace-nowrap text-center;
+    }
+    .delete-button {
+        @apply text-red-600 hover:text-red-900;
+    }
 }

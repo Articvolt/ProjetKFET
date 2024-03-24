@@ -1,6 +1,7 @@
 ﻿export const LegalNotice = () => {
     return (
         <>
+            <h1>Mentions légales</h1>
             <h2>informations</h2>
 
             <p>

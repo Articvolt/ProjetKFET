@@ -16,30 +16,69 @@ const ItemsList: React.FC = () => {
         const category = categories.find(cat => cat.id === idCategory);
         return category ? category.name : 'Non catégorisé';
     };
-    
+
     return (
         <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-4">Liste des produits</h2>
-                <div className="flex flex-col">
-                    {items.map(item => (
-                        <div key={item.id}
-                             className="flex justify-between items-center mb-4 border-b border-gray-200 pb-2">
-                            <div>
-                                <h3 className="text-xl font-semibold">{item.name}</h3>
-                                <p className="text-gray-600">{item.description}</p>
-                                <p className="text-gray-600">Catégorie: {getCategoryName(item.idCategory)}</p>
-                            </div>
-                            <div className="flex space-x-2">
+            <h2 className="text-2xl font-bold mb-4 text-center">Liste des produits</h2>
+            <table className="min-w-full divide-y divide-gray-200">
+                <thead className="bg-gray-50">
+                <tr>
+                    <th scope="col" className="table-header">
+                        Nom
+                    </th>
+                    <th scope="col" className="table-header">
+                        Description
+                    </th>
+                    <th scope="col" className="table-header">
+                        Catégorie
+                    </th>
+                    <th scope="col" className="table-header">
+                        Disponible
+                    </th>
+                    <th scope="col" className="table-header">
+                        Quantité
+                    </th>
+                    <th scope="col" className="table-header">
+                        Prix
+                    </th>
+                    <th scope="col" className="table-header">
+                        Actions
+                    </th>
+                </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-gray-200">
+                {items.map(item => (
+                    <tr key={item.id}>
+                        <td className="table-data">
+                            <div className="text-sm text-gray-500">{item.name}</div>
+                        </td>
+                        <td className="table-data">
+                            <div className="text-sm text-gray-500">{item.description}</div>
+                        </td>
+                        <td className="table-data">
+                            <div className="text-sm text-gray-500">{getCategoryName(item.idCategory)}</div>
+                        </td>
+                        <td className="table-data">
+                            <div className="text-sm text-gray-500">{item.disponibility ? 'Oui' : 'Non'}</div>
+                        </td>
+                        <td className="table-data">
+                            <div className="text-sm text-gray-500">{item.quantity}</div>
+                        </td>
+                        <td className="table-data">
+                            <div className="text-sm text-gray-500">{item.price} euros</div>
+                        </td>
+                        <td className="table-data text-sm font-medium">
                             <button
-                                    onClick={() => handleDelete(item.id)}
-                                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-                                >
-                                    Supprimer
-                                </button>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+                                onClick={() => handleDelete(item.id)}
+                                className="delete-button"
+                            >
+                                Supprimer
+                            </button>
+                        </td>
+                    </tr>
+                ))}
+                </tbody>
+            </table>
         </div>
     );
 };

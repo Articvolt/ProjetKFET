@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  app:
+    build:
+      context: "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET"
+      dockerfile: "API/Dockerfile"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/API.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "pausekfet:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\User\\.nuget\\packages:/root/.nuget/packages"
+    - "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET\\API:/app:rw"
+    - "C:\\Users\\User\\Desktop\\PauseKFET\\ProjetKFET:/src:rw"
+    working_dir: "/app"
