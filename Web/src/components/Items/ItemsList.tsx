@@ -50,22 +50,23 @@ const ItemsList: React.FC = () => {
                 {items.map(item => (
                     <tr key={item.id}>
                         <td className="table-data">
-                            <div className="text-sm text-gray-500">{item.name}</div>
+                            <div className="data">{item.name}</div>
                         </td>
                         <td className="table-data">
-                            <div className="text-sm text-gray-500">{item.description}</div>
+                            <div className="data">{item.description}</div>
                         </td>
                         <td className="table-data">
-                            <div className="text-sm text-gray-500">{getCategoryName(item.idCategory)}</div>
+                            <div className="data">{getCategoryName(item.idCategory)}</div>
                         </td>
                         <td className="table-data">
-                            <div className="text-sm text-gray-500">{item.disponibility ? 'Oui' : 'Non'}</div>
+                            <div className="data">{item.disponibility ? 'Oui' : 'Non'}</div>
+                        </td>
+                        {/* Ajoute un espace par milliers */}
+                        <td className="table-data">
+                            <div className="data">{item.quantity.toLocaleString('fr-FR')}</div>
                         </td>
                         <td className="table-data">
-                            <div className="text-sm text-gray-500">{item.quantity}</div>
-                        </td>
-                        <td className="table-data">
-                            <div className="text-sm text-gray-500">{item.price} euros</div>
+                            <div className="data">{item.price} {item.price <= 1 ? 'euro' : 'euros'}</div>
                         </td>
                         <td className="table-data text-sm font-medium">
                             <button

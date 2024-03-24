@@ -37,10 +37,10 @@ const CategoriesList: React.FC = () => {
                 {categories.map(category => (
                     <tr key={category.id}>
                         <td className="table-data">
-                            <div className="text-sm text-gray-500">{category.name}</div>
+                            <div className="data">{category.name}</div>
                         </td>
                         <td className="table-data">
-                            <div className="text-sm text-gray-500">{getItemCount(category.id)}</div>
+                            <div className="data">{getItemCount(category.id) === 0 ? 'Aucun' : getItemCount(category.id)}</div>
                         </td>
                         <td className="table-data text-sm font-medium">
                             <button
