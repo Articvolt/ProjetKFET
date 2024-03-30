@@ -33,6 +33,7 @@ export const useCategories = () => {
         axios.delete(`http://localhost:5113/api/Categories/${categoryId}`)
             .then(response => {
                 console.log("Catégorie supprimée", response.data);
+                setCategories(oldCategories => oldCategories.filter(category => category.id !== categoryId));
             })
             .catch(error => {
                 console.error("Erreur lors de la suppression de la catégorie", error);
